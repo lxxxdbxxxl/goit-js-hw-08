@@ -1,0 +1,11 @@
+{{#each this}}
+<a class="gallery__link" href="{{ original }}"          
+onclick="event.preventDefault()">
+<img
+class="gallery__image"
+src="{{ preview }}"
+data-source="{{ original }}"
+alt="{{ description }}"
+/>
+</a>
+{{/each}}   
